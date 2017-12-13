@@ -13,7 +13,7 @@
 
 # The address of the interface to bind to:
 #interface: 0.0.0.0
-interface: 192.168.0.50
+interface: 192.168.1.239
 # Whether the master should listen for IPv6 connections. If this is set to True,
 # the interface option must be adjusted, too. (For example: "interface: '::'")
 #ipv6: False
@@ -529,9 +529,9 @@ interface: 192.168.0.50
 # roots cannot match, otherwise the downloaded files will not be able to be
 # reliably ensured. A base environment is required to house the top file.
 # Example:
-# file_roots:
-#   base:
-#     - /srv/salt/
+file_roots:
+  base:
+    - /srv/salt/
 #   dev:
 #     - /srv/salt/dev/services
 #     - /srv/salt/dev/states

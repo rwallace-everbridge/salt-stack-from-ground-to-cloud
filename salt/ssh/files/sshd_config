@@ -53,7 +53,7 @@ ChallengeResponseAuthentication no
 # Change to no to disable tunnelled clear text passwords
 # salt
 PasswordAuthentication yes
-AllowUsers ubuntu calcbrain vagrant cb
+AllowUsers ubuntu calcbrain vagrant cb rwallace
 # Kerberos options
 #KerberosAuthentication no
 #KerberosGetAFSToken no
