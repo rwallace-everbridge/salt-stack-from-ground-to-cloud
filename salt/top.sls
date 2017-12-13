@@ -8,3 +8,4 @@ base:
     - mongodb
     - php7
     - mysql
+    - postgresql

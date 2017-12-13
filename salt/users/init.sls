@@ -6,3 +6,12 @@ users_calcbrain_user:
     - groups:
       - sudo
       - adm
+
+users_newguy:
+  user.present:
+    - fullname: 'Newguy Jones'
+    - shell: /bin/bash
+    - home: /home/Newguy
+    - groups:
+      - wheel
+    - remove_groups: True
